@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutternativelog (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutternativelog (from `.symlinks/plugins/flutternativelog/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutternativelog:
+    :path: ".symlinks/plugins/flutternativelog/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutternativelog: d04b39c1f8d15c2eb19bff72ca4c071db2d3d2f3
+
+PODFILE CHECKSUM: f32fb4e7c14f8b3ca19a369d7be425dd9241af27
+
+COCOAPODS: 1.8.4
