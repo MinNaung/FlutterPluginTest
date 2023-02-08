@@ -1,15 +1,18 @@
 {
-  "version": 2,
-  "timezone": "Asia/Yangon",
-  "updates": [
-    {
-      "package-ecosystem": "flutter",
-      "schedule": [
-        "at 12:30pm every day"
-      ],
-      "automerge": false,
-      "labels": ["dependencies"]
-    }
-  ],
-  "ignorePaths": []
+    "extends": [
+        "config:base"
+    ],
+    "platform": "flutter",
+    "packageRules": [
+        {
+            "packageNames": [
+                "*"
+            ],
+            "enabled": true,
+            "updateTypes": [
+                "minor",
+                "patch"
+            ]
+        }
+    ]
 }
