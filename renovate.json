@@ -1,17 +1,15 @@
 {
   "version": 2,
+  "timezone": "Asia/Yangon",
   "updates": [
     {
-      "package-ecosystem": "pub",
+      "package-ecosystem": "flutter",
       "schedule": [
-        "before 9am on Monday"
+        "at 12:30pm every day"
       ],
-      "automerge": false
+      "automerge": false,
+      "labels": ["dependencies"]
     }
   ],
-  "ignorePaths": [
-    "^docs/",
-    "^examples/",
-    "^test/"
-  ]
+  "ignorePaths": []
 }
