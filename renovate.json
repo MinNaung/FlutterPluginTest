@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "updates": [
+    {
+      "package-ecosystem": "pub",
+      "schedule": [
+        "before 9am on Monday"
+      ],
+      "automerge": false
+    }
+  ],
+  "ignorePaths": [
+    "^docs/",
+    "^examples/",
+    "^test/"
+  ]
+}
